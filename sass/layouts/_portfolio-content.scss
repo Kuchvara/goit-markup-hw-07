@@ -1,17 +1,10 @@
 .portfolio__list {
-  list-style: none;
-  display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
 }
 
 .portfolio__title {
   color: $black-text;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  @include font(18px, 2, 700);
   letter-spacing: 0.06em;
   text-decoration: none;
   margin-bottom: 4px;
@@ -19,10 +12,7 @@
 }
 .portfolio__text {
   color: $gray-text;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
+  @include font(16px, 1.875);
   letter-spacing: 0.03em;
   margin: 0;
 }
@@ -68,10 +58,7 @@
 .portfolio__subtext {
   position: absolute;
   top: 0;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
+  @include font(18px, 1.55);
   letter-spacing: 0.03em;
   color: $white;
   background-color: $portfolio-item-background;

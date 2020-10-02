@@ -1,12 +1,6 @@
 .benefits {
   padding-top: 94px;
 
-  &__list {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
   &__icon {
     background-color: $background-2;
     border-radius: 4px;
@@ -19,19 +13,13 @@
   }
   &__title {
     color: $black-text;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, 1.14, 700);
     letter-spacing: 0.03em;
     margin: 0 0 10px;
   }
   &__text {
     color: $gray-text;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(14px, 1.71);
     letter-spacing: 0.03em;
     margin: 0;
   }

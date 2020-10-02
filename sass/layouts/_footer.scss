@@ -1,10 +1,7 @@
 .address {
   display: inline-block;
   color: $white;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, 1.71);
   letter-spacing: 0.03em;
 }
 .address-text {
@@ -14,10 +11,7 @@
 /* тел і емеіл в футері */
 
 .footer-contact {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(14px, 1.71);
   letter-spacing: 0.03em;
   color: $gray-2;
   text-decoration: none;
@@ -42,10 +36,7 @@
   margin-right: 93px;
 }
 .footer-social-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 1.14, 700);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $white;
@@ -64,10 +55,7 @@
 }
 
 .subscribe-form-text {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(14px, 1.14, 700);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $white;
@@ -84,9 +72,4 @@
   padding: 15px 16px;
   width: 358px;
   color: $white;
-}
-
-.footer-contact:hover,
-.footer-contact:focus {
-  color: $active-color;
 }

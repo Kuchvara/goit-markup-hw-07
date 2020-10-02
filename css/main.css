@@ -144,6 +144,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -158,9 +165,9 @@ body {
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #2196f3;
@@ -190,9 +197,9 @@ body {
 .hero__title {
   color: #fff;
   font-style: normal;
-  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  font-weight: 900;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -205,13 +212,6 @@ body {
 
 .benefits {
   padding-top: 94px;
-}
-
-.benefits__list {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
 }
 
 .benefits__icon {
@@ -228,9 +228,9 @@ body {
 .benefits__title {
   color: #212121;
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   letter-spacing: 0.03em;
   margin: 0 0 10px;
 }
@@ -238,9 +238,9 @@ body {
 .benefits__text {
   color: #757575;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   letter-spacing: 0.03em;
   margin: 0;
 }
@@ -257,19 +257,12 @@ body {
   padding: 94px 0;
 }
 
-.work__list {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
 .work__title {
   color: #212121;
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0 0 50px;
@@ -286,9 +279,9 @@ body {
 
 .work__text {
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -308,19 +301,12 @@ body {
   padding: 94px 0;
 }
 
-.team__list {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
 .team__title {
   color: #212121;
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0 0 50px;
@@ -329,9 +315,9 @@ body {
 .team__name {
   color: #212121;
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0 0 10px;
@@ -340,9 +326,9 @@ body {
 .team__text {
   color: #757575;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  font-weight: 400;
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0 0 16px;
@@ -369,20 +355,13 @@ body {
 
 .clients__title {
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   margin: 0 0 50px;
-}
-
-.clients__list {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
 }
 
 .clients__item:not(:last-child) {
@@ -426,19 +405,17 @@ body {
 }
 
 .portfolio__menu {
-  list-style: none;
-  padding: 0;
+  justify-content: center;
   margin: 0 0 50px;
-  text-align: center;
 }
 
 .portfolio__button {
   color: #212121;
   background-color: #f5f4fa;
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
@@ -464,19 +441,15 @@ body {
 }
 
 .portfolio__list {
-  list-style: none;
-  display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
 }
 
 .portfolio__title {
   color: #212121;
   font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-decoration: none;
   margin-bottom: 4px;
@@ -486,9 +459,9 @@ body {
 .portfolio__text {
   color: #757575;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.875;
+  font-weight: 400;
   letter-spacing: 0.03em;
   margin: 0;
 }
@@ -536,9 +509,9 @@ body {
   position: absolute;
   top: 0;
   font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
+  font-weight: 400;
   letter-spacing: 0.03em;
   color: #fff;
   background-color: rgba(33, 150, 243, 0.9);
@@ -554,38 +527,29 @@ body {
   transform: translateY(0%);
 }
 
-.subscribe-button {
-  padding: 10px 28px 10px 29px;
+.button {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  border: none;
   font-style: normal;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+  font-weight: 700;
   letter-spacing: 0.06em;
-  color: #fff;
+}
+
+.button--submit {
   display: flex;
   align-items: center;
-  border: none;
+  justify-content: center;
 }
 
 .subscribe-button-text {
   margin-right: 10px;
-}
-
-/* кнопка "заказать услуги" */
-.hero__button {
-  background-color: #2196f3;
-  color: #fff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  padding: 10px 32px;
-  letter-spacing: 0.06em;
-  border-radius: 4px;
-  border: none;
 }
 
 .header-menu {
@@ -598,23 +562,8 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.navigation {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-}
-
 .navigation-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.contacts {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .header-flexbox {
@@ -627,9 +576,9 @@ body {
 .navigation-link {
   display: block;
   font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
@@ -640,8 +589,13 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.navigation-link:hover, .navigation-link:focus {
+  color: #2196f3;
+}
+
 .current {
   position: relative;
+  color: #2196f3;
 }
 
 .current::after {
@@ -672,9 +626,9 @@ body {
   align-items: center;
   color: #757575;
   font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
   transition-property: color;
@@ -682,26 +636,22 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contacts-link:hover, .contacts-link:focus {
+  color: #2196f3;
+}
+
 .contacts-link:hover .contacts-icon,
 .contacts-link:focus .contacts-icon {
   fill: #2196f3;
-}
-
-.navigation-link:hover,
-.navigation-link:focus,
-.current,
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #2196f3;
 }
 
 .address {
   display: inline-block;
   color: #fff;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   letter-spacing: 0.03em;
 }
 
@@ -713,9 +663,9 @@ body {
 /* тел і емеіл в футері */
 .footer-contact {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -746,9 +696,9 @@ body {
 
 .footer-social-title {
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
@@ -769,9 +719,9 @@ body {
 
 .subscribe-form-text {
   font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
@@ -790,11 +740,6 @@ body {
   color: #fff;
 }
 
-.footer-contact:hover,
-.footer-contact:focus {
-  color: #2196f3;
-}
-
 .backdrop {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.2);
@@ -805,11 +750,20 @@ body {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(2);
+}
+
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%);
   width: 100%;
   max-width: 528px;
   height: 100%;
@@ -834,6 +788,11 @@ body {
   border-radius: 50%;
 }
 
+.modal-close-button:hover .modal-close-button-icon,
+.modal-close-button:focus .modal-close-button-icon {
+  fill: #2196f3;
+}
+
 .modal-close-button-icon {
   position: absolute;
   top: 50%;
@@ -841,11 +800,6 @@ body {
   transform: translate(-50%, -50%);
   fill: #000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-close-button:hover .modal-close-button-icon,
-.modal-close-button:focus .modal-close-button-icon {
-  fill: #2196f3;
 }
 
 .modal-form {
@@ -859,9 +813,9 @@ body {
 .modal-form-text {
   display: block;
   font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -871,9 +825,9 @@ body {
 .modal-form-label {
   position: absolute;
   font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
+  font-weight: 400;
   letter-spacing: 0.01em;
   color: #757575;
   top: -18px;
@@ -920,9 +874,9 @@ body {
 
 .form-comment::placeholder {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 400;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -951,9 +905,9 @@ body {
   align-items: center;
   justify-content: center;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   color: #757575;
   letter-spacing: 0.03em;
 }
@@ -983,36 +937,8 @@ body {
   background-image: url(../images/icons/checkbox_on.svg);
 }
 
-.submit {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  color: #fff;
-  height: 50px;
-  width: 200px;
-  border: none;
-}
-
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(2);
-}
-
 .social-list {
-  display: flex;
   justify-content: center;
-  padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
 .social-item {
