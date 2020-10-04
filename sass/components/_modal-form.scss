@@ -85,24 +85,24 @@
   left: 13.5px;
 }
 
-.agreement-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  @include font(14px, 1.71);
-  color: $gray-text;
-  letter-spacing: 0.03em;
-}
-
-.agreement-field {
-  margin-bottom: 30px;
-}
-
 .agreement {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   position: absolute;
+
+  &-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include font(14px, 1.71);
+    color: $gray-text;
+    letter-spacing: 0.03em;
+  }
+
+  &-field {
+    margin-bottom: 30px;
+  }
 }
 
 .agreement-icon::after {

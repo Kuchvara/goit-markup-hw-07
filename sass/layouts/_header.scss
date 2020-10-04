@@ -1,21 +1,21 @@
-.header-menu {
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
 .header {
   border-bottom: 1px solid $portfolio-line;
+
+  &-menu {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+
+  &-flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .navigation-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.header-flexbox {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* меню навігації в хедері */

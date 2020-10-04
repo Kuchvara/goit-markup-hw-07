@@ -141,7 +141,7 @@ img {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -163,7 +163,7 @@ ul {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-size: 26px;
   line-height: 1.19;
@@ -495,8 +495,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio__link:hover,
-.portfolio__link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -552,24 +551,24 @@ ul {
   margin-right: 10px;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-menu {
   display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.header {
-  border-bottom: 1px solid #ececec;
-}
-
-.navigation-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .header-flexbox {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* меню навігації в хедері */
@@ -900,6 +899,13 @@ ul {
   left: 13.5px;
 }
 
+.agreement {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
 .agreement-text {
   display: flex;
   align-items: center;
@@ -914,13 +920,6 @@ ul {
 
 .agreement-field {
   margin-bottom: 30px;
-}
-
-.agreement {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  position: absolute;
 }
 
 .agreement-icon::after {
@@ -965,20 +964,19 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon {
-  fill: #afb1b8;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link:hover,
-.social-link:focus {
+.social-link:hover, .social-link:focus {
   background-color: #2196f3;
 }
 
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   fill: #fff;
+}
+
+.social-icon {
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*# sourceMappingURL=main.css.map */

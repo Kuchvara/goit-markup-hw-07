@@ -21,18 +21,19 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $active-color;
+  }
+  &:hover .social-icon,
+  &:focus .social-icon {
+    fill: $white;
+  }
 }
 .social-icon {
   fill: $icon-color;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link:hover,
-.social-link:focus {
-  background-color: $active-color;
-}
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: $white;
 }
